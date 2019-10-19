@@ -1,0 +1,80 @@
+.hero {
+    padding-top: 1.5%;
+    &::after {
+        content: '';
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: url(./images/img/heroDIST.png) center center / contain no-repeat;
+
+    }
+}
+.header-container {
+    justify-content: space-between;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.header-nav {
+    width: 60%;
+}
+.header-nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.contact-number {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+}
+.header-nav__item {
+   
+}
+.header-nav__link {
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff; 
+    &:hover {
+        color: saddlebrown;
+        transition: .2s;
+    }
+}
+
+
+            /* MIDDLE */
+
+.middle-content {
+    display: flex;
+}
+.middle-content__description {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.up-subtitle {
+    font-weight: bold;
+}
+.hero-title {
+    font-size: 100px;
+    font-weight: 1000;
+}
+.hero-subtitle {
+    text-transform: none;
+    margin-bottom: 10%;
+}
+.buy-btn {
+    padding: 15px 10px;
+    background: #841827;
+    border: 0;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+}

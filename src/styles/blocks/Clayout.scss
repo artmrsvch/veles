@@ -1,0 +1,72 @@
+
+html {
+    font-size: 16px;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #191828;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+//Selectors
+.wrapper {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    
+}
+.section {
+    @include section;
+}
+
+.container {
+    margin: 0 auto;
+    width: 98%;
+    max-width: 960px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    @include tablets {
+        max-width: 768px;
+        width: 93%;
+    }
+    @include phones {
+        max-width: 480px;
+        width: 97%;
+    }
+}
+
+//Setting
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+:-webkit-any(article,aside,nav,section) h1 {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    background: transparent;
+    cursor: pointer;
+    outline: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+a {
+    text-decoration: none;
+}
