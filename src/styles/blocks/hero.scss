@@ -1,27 +1,21 @@
 .hero {
     background: url(./images/img/fightProkop1.png) center center / cover no-repeat;
-   /* &::after {
-        content: '';
-        position: absolute;
-        top: 0 ;
-        right: 0;
-        left: 0;
-        bottom: 0;
-        opacity: 0.1;
-    }*/
+
 }
 .header-container {
-    justify-content: space-between;
+    justify-content: center;
 }
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    padding-top: 1.5%;
+    width: 65vw;
+    position: absolute;
+    top: 2.5%;
+
 }
 .header-nav {
-    width: 60%;
+    width: 50%;
 }
 .header-nav__list {
     display: flex;
@@ -41,9 +35,8 @@
     font-weight: bold;
     font-size: 14px;
     color: #ffffff; 
-    &:hover {
-        color: saddlebrown;
-        transition: .2s;
+    &_active {
+        color: #c32734;
     }
 }
 
@@ -73,7 +66,7 @@
 }
 .buy-btn {
     padding: 15px 10px;
-    background: #841827;
+    background: #c32734;
     border: 0;
     border-radius: 20px;
     text-transform: uppercase;
@@ -89,7 +82,12 @@
 /*SOCIAL*/
 .footer__social {
     display: flex;
+    width: 80vw;
+    justify-content: flex-start;
+    align-items: flex-start;
     padding-bottom: 3.5%;
+    position: absolute;
+    bottom: 0;
 
 }
 

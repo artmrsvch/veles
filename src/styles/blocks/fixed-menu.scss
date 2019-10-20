@@ -1,0 +1,31 @@
+.fixed-menu{
+position: fixed;
+top: 50%;
+transform: translateY(-50%);
+right: 46px;
+z-index: 998;
+@include tablets {
+    display: none;
+}
+}
+
+
+.fixed_btn {
+    width: 20px;
+    height: 3px;
+    margin-bottom: 16px;
+    border: 0;
+    background: #5c5a6f;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+.fixed-menu__item {
+    &_active {
+        .fixed_btn {
+            width: 35px;
+            background: #c32734;;
+        }
+    }
+}
