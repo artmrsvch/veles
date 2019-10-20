@@ -1,6 +1,6 @@
 
 html {
-    font-size: 16px;
+    font-size: 18px;
 }
 body {
     -webkit-font-smoothing: antialiased;
@@ -10,9 +10,9 @@ body {
 }
 //Selectors
 .wrapper {
-    overflow: hidden;
+    //overflow: hidden;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     position: relative;
     
 }

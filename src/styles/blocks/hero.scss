@@ -1,16 +1,14 @@
 .hero {
-    padding-top: 1.5%;
-    &::after {
+    background: url(./images/img/fightProkop1.png) center center / cover no-repeat;
+   /* &::after {
         content: '';
-        width: 50%;
-        height: 100%;
         position: absolute;
+        top: 0 ;
         right: 0;
-        top: 0;
+        left: 0;
         bottom: 0;
-        background: url(./images/img/heroDIST.png) center center / contain no-repeat;
-
-    }
+        opacity: 0.1;
+    }*/
 }
 .header-container {
     justify-content: space-between;
@@ -20,6 +18,7 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    padding-top: 1.5%;
 }
 .header-nav {
     width: 60%;
@@ -53,6 +52,9 @@
 
 .middle-content {
     display: flex;
+    align-items: center;
+    height: 50%;
+    justify-content: space-between;
 }
 .middle-content__description {
     color: #ffffff;
@@ -77,4 +79,47 @@
     text-transform: uppercase;
     color: #ffffff;
     font-weight: bold;
+}
+.middle-content__pic {
+    height: 100%;
+}
+.veles-logo {
+    height: 100%;
+}
+/*SOCIAL*/
+.footer__social {
+    display: flex;
+    padding-bottom: 3.5%;
+
+}
+
+.footer__item {
+    margin-right: 20px;
+    display: flex;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+.icon-sprite {
+    fill: #b2b2b2;
+    transition: 0.2s;
+    &:hover {
+        fill: #fff;
+    }
+}
+.icon-sprite_vk {
+    width: 23px;
+    height: 20px;
+}
+.icon-sprite_fb {
+    width: 20px;
+    height: 20px;
+}
+.icon-sprite_in {
+    width: 20px;
+    height: 20px;
+}
+.icon-sprite_tw {
+    width: 20px;
+    height: 20px;
 }
