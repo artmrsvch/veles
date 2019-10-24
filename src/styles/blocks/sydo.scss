@@ -1,6 +1,5 @@
 .directions {
     background: url(./images/img/direction.png) center center / cover no-repeat;
-<<<<<<< HEAD
     &:after {
         content: '';
         position: absolute;
@@ -11,8 +10,6 @@
         height: 6%;
         background-color:#242335;
     }
-=======
->>>>>>> e329a2a8723f4ee8340f99f5360787fce252890a
 }
 .directions__container {
     display: flex;
