@@ -1,5 +1,6 @@
 .hero {
     background: url(./images/img/fightProkop1.png) center center / cover no-repeat;
+<<<<<<< HEAD
     &:after {
         content: '';
         position: absolute;
@@ -14,12 +15,24 @@
 }
 .header-container {
     justify-content: space-between;
+=======
+
+}
+.header-container {
+    justify-content: center;
+>>>>>>> e329a2a8723f4ee8340f99f5360787fce252890a
 }
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+<<<<<<< HEAD
     padding-top: 2.5%;
+=======
+    width: 65vw;
+    position: absolute;
+    top: 2.5%;
+>>>>>>> e329a2a8723f4ee8340f99f5360787fce252890a
 
 }
 .header-nav {
@@ -36,6 +49,12 @@
     font-weight: bold;
     font-size: 14px;
 }
+<<<<<<< HEAD
+=======
+.header-nav__item {
+   
+}
+>>>>>>> e329a2a8723f4ee8340f99f5360787fce252890a
 .header-nav__link {
     font-weight: bold;
     font-size: 14px;
@@ -51,14 +70,22 @@
 .middle-content {
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     height: 75%;
     justify-content: center;
     flex-direction: column;
+=======
+    height: 50%;
+    justify-content: space-between;
+>>>>>>> e329a2a8723f4ee8340f99f5360787fce252890a
 }
 .middle-content__description {
     color: #ffffff;
     text-transform: uppercase;
+<<<<<<< HEAD
     text-align: center;
+=======
+>>>>>>> e329a2a8723f4ee8340f99f5360787fce252890a
 }
 .up-subtitle {
     font-weight: bold;
@@ -93,7 +120,12 @@
     justify-content: flex-start;
     align-items: flex-start;
     padding-bottom: 3.5%;
+<<<<<<< HEAD
 
+=======
+    position: absolute;
+    bottom: 0;
+>>>>>>> e329a2a8723f4ee8340f99f5360787fce252890a
 
 }
 
