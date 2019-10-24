@@ -1,0 +1,129 @@
+.hero {
+    background: url(./images/img/fightProkop1.png) center center / cover no-repeat;
+    &:after {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        bottom: -3%;
+        left: 0;
+        right: 0;
+        height: 6%;
+        background-color:#242335;
+    }
+
+}
+.header-container {
+    justify-content: space-between;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2.5%;
+
+}
+.header-nav {
+    width: 50%;
+}
+.header-nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.contact-number {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+}
+.header-nav__link {
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff; 
+    &_active {
+        color: #c32734;
+    }
+}
+
+
+            /* MIDDLE */
+
+.middle-content {
+    display: flex;
+    align-items: center;
+    height: 75%;
+    justify-content: center;
+    flex-direction: column;
+}
+.middle-content__description {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.up-subtitle {
+    font-weight: bold;
+}
+.hero-title {
+    font-size: 100px;
+    font-weight: 1000;
+}
+.hero-subtitle {
+    text-transform: none;
+    margin-bottom: 10%;
+}
+.buy-btn {
+    padding: 15px 10px;
+    background: #c32734;
+    border: 0;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+}
+.middle-content__pic {
+    height: 100%;
+}
+.veles-logo {
+    height: 100%;
+}
+/*SOCIAL*/
+.footer__social {
+    display: flex;
+    width: 80vw;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 3.5%;
+
+
+}
+
+.footer__item {
+    margin-right: 20px;
+    display: flex;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+.icon-sprite {
+    fill: #b2b2b2;
+    transition: 0.2s;
+    &:hover {
+        fill: #fff;
+    }
+}
+.icon-sprite_vk {
+    width: 23px;
+    height: 20px;
+}
+.icon-sprite_fb {
+    width: 20px;
+    height: 20px;
+}
+.icon-sprite_in {
+    width: 20px;
+    height: 20px;
+}
+.icon-sprite_tw {
+    width: 20px;
+    height: 20px;
+}
